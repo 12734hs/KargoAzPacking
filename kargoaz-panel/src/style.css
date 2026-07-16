@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    font-family: system-ui, sans-serif;
+    background: #f7f7f8;
+  }
+
+#app {
+    max-width: 620px;
+    margin: 48px auto;
+    padding: 32px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+}
+
+#logo { width: 64px; height: 64px; }
+h1 { font-size: 24px; color: blue; }
+.stats { list-style: none; padding: 0; }
+.stats li { padding: 10px 14px; border-bottom: 1px solid #eee; }
+.stats .total { font-weight: 700; color: #c0392b; }
+
+button {
+    background: #c0392b;
+    color: #fff;
+    border: 0;
+    padding: 10px 18px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.counter { color: #666; }
